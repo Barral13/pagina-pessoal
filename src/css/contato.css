@@ -1,0 +1,126 @@
+body {
+    font-size: 100%;
+    background: linear-gradient(rgb(221, 113, 236), rgb(134, 132, 134),rgb(236, 122, 236));
+}
+
+.cabecalho {
+    background: linear-gradient(rgb(183, 179, 179), rgb(38, 37, 37), rgb(101, 96, 96));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    border-bottom: solid #a25fae;
+}
+
+.cabecalho .perfil {
+    border-radius: 7%;
+    padding-left: 20px;
+}
+
+.cabecalho .menu {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho .menu li a {
+    color: #060007;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Sarala'; 
+}
+
+.menu li a:hover {
+    color: #cf4dd2
+}
+
+.container {
+    max-width: 1440px;
+    height: 100%;
+}
+
+.container form {
+    align-items:center;
+    flex-direction:column;
+    display: flex;
+}
+
+form {
+    padding: 20px 0;
+    border: none;
+    font-family: 'Gloock', serif;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    outline: unset;
+    border: solid 1px rgb(74, 225, 230);
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+}
+
+label {
+    color: #000000;
+    padding: 10px;
+}
+
+
+
+#nomesobrenome{
+    width: 30%;
+}
+
+#email {
+    width: 30%;
+}
+
+#telefone {
+    width: 30%;
+}
+
+#mensagem {
+    width: 50%;
+}
+
+.enviar {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+footer {
+    background: linear-gradient(rgb(14, 14, 14), rgb(38, 38, 38),rgb(0, 0, 0));
+    height: 180px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+}
+
+footer p {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.whatsapp {
+    position:fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25d366;
+    color: #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 10px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/contato.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <title>Contato</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="perfil" src="./src/imagens/Perfil.jfif" alt="Foto de perfil" height="200">
+        <ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+        </ul>
+        <img src="src/imagens/logo.png" alt="Barral_13" height="200">
+    </header>
+
+    <main class="container">
+    
+        <form>
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome" required placeholder="Digite seu Nome">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required placeholder="(xx)-xxxxx-xxxx">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" required placeholder="E-mail">
+
+            <label for="mensagem">Mensagem</label>
+             <textarea cols="70" rows="10"  id="mensagem"
+                required></textarea>
+
+            <input type="submit" value="Enviar"  class="enviar">
+        </form>
+        <a class="whatsapp" href="https://web.whatsapp.com/send?phone=5538997292832" target="_blank">
+            <i class="fa fa-whatsapp"></i>
+        </a>
+        
+    </main>
+</body>
+<footer>
+    <img src="src/imagens/logo.png" alt="Barral_13" height="150">
+    <p class="copyright">&copy; Copyright Barral_13 - 2023</p>
+</footer>
+</html>

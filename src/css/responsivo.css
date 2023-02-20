@@ -1,0 +1,35 @@
+@media (max-width: 1200px) {
+    .cabecalho {
+        flex-wrap: wrap;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .container .principal {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .secundario {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .pessoal {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+

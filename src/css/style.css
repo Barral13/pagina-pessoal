@@ -1,0 +1,141 @@
+body {
+    font-size: 100%;
+    background: linear-gradient(rgb(183, 179, 179), rgb(38, 37, 37), rgb(101, 96, 96));
+}
+
+.cabecalho {
+    background: linear-gradient(rgb(183, 179, 179), rgb(38, 37, 37), rgb(101, 96, 96));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.cabecalho .perfil {
+    border-radius: 7%;
+    padding-left: 20px;
+}
+
+.cabecalho .menu {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho .menu li a {
+    color: #060007;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Sarala'; 
+}
+
+.menu li a:hover {
+    color: #cf4dd2;
+}
+
+.container .principal {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    border-top: solid 2px #ffffff;
+}
+
+.container .secundario {
+    border-bottom: solid 3px #000;
+}
+
+.informacoes {
+    padding-left: 30px;
+    font-size: 15px;
+    font-family: 'Sarala';
+}
+
+.informacoes h3 {
+    color: #1c1b1b;
+}
+
+.informacoes P {
+    color: #c5cfcf;
+}
+
+.foto {
+    height: 200px;
+    margin: 0 auto;
+}
+
+.midias {
+    max-width: 1440px;
+    padding-left: 30px;
+}
+
+.midias ul {
+    display: flex;
+    margin: 30px;
+}
+
+.midias li {
+  margin: 30px;
+  position: relative;
+}
+
+.midias li a {
+    align-items: center;
+    display: flex;
+    padding: 20px;
+}
+
+.midias h3 {
+    color: #c5cfcf;
+}
+
+.midias p {
+    position:absolute;
+    bottom: 0;
+    color:#c5cfcf;
+}
+
+.pessoal {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Sarala';
+}
+
+.pessoal h3 {
+    color: #211e1e;
+}
+
+.pessoal p {
+    color:#ffffff;
+}
+
+.video {
+    border-radius: 5%;
+    background-color: #343034;
+}
+
+.video p {
+    color: #bdb8bd;
+    text-align: center;
+
+}
+
+footer {
+    background: linear-gradient(rgb(14, 14, 14), rgb(38, 38, 38),rgb(0, 0, 0));
+    height: 180px;
+    width: 110%;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+}
+
+footer p {
+    font-size: 20px;
+    color: #ffffff;
+}
+
